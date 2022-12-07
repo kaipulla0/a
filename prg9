@@ -1,0 +1,24 @@
+# include<stdio.h>
+# include<conio.h>
+int stringln(char*);
+void main()
+{
+char str[20];
+int length;
+clrscr();
+printf(“\n enter any string:”);
+gets(str);
+length=stringln(str);
+printf(“ the length of given string %s is %d”,str,length);
+getch();
+}
+int stringln(char*p)/*p=&str[0]*/
+{
+int count=0;
+while(*p!=’\0’)
+{
+count++;
+p++;
+}
+return count;
+}
