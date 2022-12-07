@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int sq(int);
+void main()
+{
+int no , square;
+clrscr();
+printf(“\n Enter an no:”);
+scanf(“%d”,& no);
+square= sq(no);
+printf (“ square of no is:%d”, square);
+getch();
+}
+int sq (int temp)
+{
+return temp*temp;
+}
