@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,n;
+i=1;
+clrscr();
+printf(“Enter the number to get the multiplication table:”);
+scanf(“%d%”,&n);
+do
+{
+printf(“%d x %d=%d\n”,n,i,i*n);
+i++;
+}
+while(i<=10);
+getch();
