@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,x,I;
+x=1;
+printf(“enter number to raise power for 2”);
+scanf(“%d”,&n);
+for (i=1, i<=n; i++)
+{
+x=x*2;
+printf(“2^%d=%d”, I,x);
+printf(“\n”);
+}
+getch();
+}
