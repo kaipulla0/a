@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<conio.h>
+#include<string.h>
+Voidmain()
+{
+	char a[100], b[100];
+	printf(“Enter upper case word:”);
+	scanf(“%s”,&a);
+	atrcpy(b,a);
+	printf(“Lower case word:%s”; strlwr(b));
+	getch();
+}
