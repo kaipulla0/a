@@ -1,0 +1,30 @@
+#include<stdio.h>
+Int main()
+{
+Char rep;
+Int years;
+Printf(“d-day, m-month, h-hour, i-minute, s-second”);
+Printf(“/n”);
+Printf(“Enter method for representation:”);
+Scanf(“%c”,&rep);
+Printf(“Enter year:”);
+Scanf(“%d”,&years);
+Switch(rep)
+{
+Case’d’:
+Printf(“Converted into days as :%d”, years*365);
+Break;
+Case’m’:
+Printf(“Converted into months as:%d”,years*12);
+Break;
+Case’h’:
+Printf(“Converted into hours as:%d”,years*365*24);
+Break;
+Case’I’:
+Printf(“Converted into minutes as:d”,years*365*24*60*60);
+Break;
+Default:
+Printf(“You Entered a Wrong Input”);
+}
+Return0;
+}
